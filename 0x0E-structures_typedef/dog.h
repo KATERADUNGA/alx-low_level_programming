@@ -2,9 +2,9 @@
 #define _DOG_H_
 
 /**
- * dog - Typedef for struct dog
+ * my_dog - Typedef for struct dog
  */
-typedef struct dog;
+typedef struct dog my_dog;
 
 /**
  * struct dog - struct that stores some information of a dog
@@ -25,6 +25,6 @@ char *owner;
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
-void free_dog(dog *d);
+void free_dog(my_dog *d);
 
 #endif
