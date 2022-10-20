@@ -16,5 +16,3 @@ void free_list(list_t *head)
 		head = tmp;
 	}
 }
-Footer
-© 2022 GitHub, Inc.
